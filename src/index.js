@@ -36,4 +36,4 @@ function render() {
 
 let store = createStore()
 
-dispatch({ type: '@@INIT' })
+store.dispatch({ type: '@@INIT' })
