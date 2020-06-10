@@ -35,4 +35,5 @@ function render() {
 // once the store is created, call an initial dispatch
 
 let store = createStore()
+
 dispatch({ type: '@@INIT' })
