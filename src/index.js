@@ -36,4 +36,4 @@ function render() {
 // once the store is created, call an initial dispatch
 
 let store = createStore()
-store.dispatch(candyReducer({ action: '@@INIT' }))
+dispatch({ type: '@@INIT' })
