@@ -2,7 +2,7 @@
 function createStore(reducer) {
   let state;
   
-  function dispatch() {
+  function dispatch(action) {
     
   }
   
