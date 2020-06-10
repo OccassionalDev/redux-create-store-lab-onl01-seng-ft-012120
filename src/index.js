@@ -2,6 +2,15 @@
 function createStore(reducer) {
   let state;
   
+  function dispatch() {
+    
+  }
+  
+  function getState() {
+    return state 
+  }
+  
+  return { dispatch, getState }
 }
 
 function candyReducer(state = [], action) {
